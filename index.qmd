@@ -1,9 +1,3 @@
-# Preface {.unnumbered}
+# Prefácio {.unnumbered}
 
-This is a test.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 1
-```
+Escrever aqui o prefácio do livro.

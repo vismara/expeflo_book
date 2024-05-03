@@ -1,23 +1,56 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "expeflo_book"
-  author: "Norah Jones"
-  date: "3/6/2024"
+  title: "Experimentação Florestal com R"
+  reader-mode: true
+
+  page-footer:
+    left: |
+      Este tutorial foi escrito por Edgar de Souza Vismara e Ximena Mendes de Oliveira.
+    right: |
+      Este material foi elaborado com <a href="https://quarto.org/">Quarto</a>.
+  cover-image: cover2.png
+  favicon: cover.png
+  author: "Edgar S. Vismara e Ximena M. de Oliveira"
+  date: last-modified
+  
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    
+    - part: "Parte 1: Introdução ao R" 
+      chapters:
+      - intro.qmd
+      
+ 
+    - part: "Parte 2"   
+      chapters:
+      - summary.qmd 
 
+reference-section-title: references
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    code-link: true
+    self-contained-math: true
+   
+
+    author-meta: "Edgar S. Vismara e Ximena M. de Oliveira"
+    callout-appearance: simple
   pdf:
     documentclass: scrreprt
+    cover-image: cover.png
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
+  epub: default
 
 editor: visual
 
