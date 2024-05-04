@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "Experimentação Florestal com R"
+  title: "Experimentação Florestal no R"
   reader-mode: true
 
   page-footer:
