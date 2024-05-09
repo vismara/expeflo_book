@@ -1,0 +1,9 @@
+# Visualização de Resultados
+
+- Gráficos Básicos com `ggplot2`
+     - Gráficos de Barras, Boxplots, Scatter Plots
+- Gráficos Avançados
+     - Gráficos de Interação
+     - Gráficos de Regressão
+     
+     

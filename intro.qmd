@@ -1,3 +1,7 @@
 # Introdução
 
-Escrever aqui a introdução
+- Objetivo da Apostila
+- Importância da Experimentação Florestal
+- Visão Geral do Software R
+- Instalação do R e RStudio
+- Introdução ao R e RStudio

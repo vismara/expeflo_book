@@ -1,0 +1,31 @@
+# Introdução aos Modelos Lineares e à Análise de Variância {#sec-intro}
+
+```{r}
+#| echo: false
+
+source("config.R")
+```
+
+## Introdução aos Modelos Lineares
+
+-   Definição de Modelo Linear
+-   Importância nos Experimentos Florestais
+-   Formulação Matricial
+-   Notação Matricial do Modelo Linear ( $Y = X\beta + \epsilon$ )
+-   Interpretação dos Termos: ( Y ) (Resposta), ( X ) (Matriz de Design), ( $\beta$ ) (Parâmetros), ( $\epsilon$ ) (Erro)
+-   Minimos quadrados
+
+## Análise de Variância (ANOVA)
+
+-   Conceitos Fundamentais
+-   Comparação de Modelos Completos e Reduzidos em dados balanceados
+
+```{r}
+library(ggplot2)# carrega
+v = c(1,2,3,4)
+v2 = c(v^2)
+ggplot(data.frame(v, v2), aes(v,v2)) +
+  geom_point()
+
+```
+

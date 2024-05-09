@@ -1,0 +1,14 @@
+# Análise Estatística de Experimentos
+
+   - Estatística Descritiva
+     - Resumo de Dados
+     - Visualização com Gráficos
+   - Análise de Variância (ANOVA)
+     - Aplicação no R
+     - Interpretação dos Resultados
+   - Testes de Comparação de Médias
+     - Teste de Tukey
+     - Teste de Dunnett
+   - Modelos Lineares Generalizados
+     - Introdução aos GLMs
+     - Aplicação em Dados Florestais

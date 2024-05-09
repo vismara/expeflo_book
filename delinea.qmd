@@ -1,0 +1,17 @@
+# Fundamentos da Experimentação Florestal 
+
+-   Conceitos Básicos de Experimentação
+-   Definição e Objetivos
+-   Tipos de Experimentos (Fatoriais, Blocos, etc.)
+-   Delineamentos Experimentais
+-   Delineamento Inteiramente Casualizado (DIC)
+-   Delineamento em Blocos Casualizados (DBC)
+-   Delineamento Fatorial
+-   Unidades Experimentais e Tratamentos
+-   Definição de Unidade Experimental
+-   Seleção e Alocação de Tratamentos
+
+```{r}
+2 + 2
+```
+

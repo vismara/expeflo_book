@@ -19,21 +19,45 @@ book:
   chapters:
     - index.qmd
     
-    - part: "Parte 1: Introdução ao R" 
+    - part: "Parte I: Fundamentos Teóricos" 
       chapters:
       - intro.qmd
+      - lin_mod.qmd
       
  
-    - part: "Parte 2"   
+    - part: "Parte II: Delineamento Experimental"   
       chapters:
-      - summary.qmd 
+      - delinea.qmd 
+      
+    - part: "Parte III: Preparação e Análise de Dados"   
+      chapters:
+      - pre_pro.qmd 
+      - analise.qmd
+      
+    - part: "Parte IV: Aplicações Florestais"   
+      chapters:
+      - casos.qmd 
+  
+      
+    - part: "Parte V: Visualização e Boas Práticas"   
+      chapters:
+      - visual.qmd 
+      - boas_praticas.qmd
+    
+    - part: "Apêndice"   
+      chapters:
+      - appendix.qmd 
+      - recursos.qmd 
+  
 
 reference-section-title: references
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+    - cosmo
+    #- estilo_hd.css
     code-link: true
     self-contained-math: true
    

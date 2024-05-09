@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Experimentação Florestal com R",
+    "title": "Experimentação Florestal no R",
     "section": "",
     "text": "Prefácio\nEscrever aqui o prefácio do livro.",
     "crumbs": [
@@ -14,9 +14,9 @@
     "href": "intro.html",
     "title": "1  Introdução",
     "section": "",
-    "text": "Escrever aqui a introdução",
+    "text": "Objetivo da Apostila\nImportância da Experimentação Florestal\nVisão Geral do Software R\nInstalação do R e RStudio\nIntrodução ao R e RStudio",
     "crumbs": [
-      "Parte 1: Introdução ao R",
+      "Parte I: Fundamentos Teóricos",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
     ]
   },
@@ -29,6 +29,127 @@
     "crumbs": [
       "Parte 2",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Resumo</span>"
+    ]
+  },
+  {
+    "objectID": "lin_mod.html",
+    "href": "lin_mod.html",
+    "title": "2  Introdução aos Modelos Lineares e à Análise de Variância",
+    "section": "",
+    "text": "2.1 Introdução aos Modelos Lineares",
+    "crumbs": [
+      "Parte I: Fundamentos Teóricos",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introdução aos Modelos Lineares e à Análise de Variância</span>"
+    ]
+  },
+  {
+    "objectID": "lin_mod.html#introdução-aos-modelos-lineares",
+    "href": "lin_mod.html#introdução-aos-modelos-lineares",
+    "title": "2  Introdução aos Modelos Lineares e à Análise de Variância",
+    "section": "",
+    "text": "Definição de Modelo Linear\nImportância nos Experimentos Florestais\nFormulação Matricial\nNotação Matricial do Modelo Linear ( \\(Y = X\\beta + \\epsilon\\) )\nInterpretação dos Termos: ( Y ) (Resposta), ( X ) (Matriz de Design), ( \\(\\beta\\) ) (Parâmetros), ( \\(\\epsilon\\) ) (Erro)\nMinimos quadrados",
+    "crumbs": [
+      "Parte I: Fundamentos Teóricos",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introdução aos Modelos Lineares e à Análise de Variância</span>"
+    ]
+  },
+  {
+    "objectID": "lin_mod.html#análise-de-variância-anova",
+    "href": "lin_mod.html#análise-de-variância-anova",
+    "title": "2  Introdução aos Modelos Lineares e à Análise de Variância",
+    "section": "2.2 Análise de Variância (ANOVA)",
+    "text": "2.2 Análise de Variância (ANOVA)\n\nConceitos Fundamentais\nComparação de Modelos Completos e Reduzidos em dados balanceados\n\n\nlibrary(ggplot2)# carrega\nv = c(1,2,3,4)\nv2 = c(v^2)\nggplot(data.frame(v, v2), aes(v,v2)) +\n  geom_point()",
+    "crumbs": [
+      "Parte I: Fundamentos Teóricos",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introdução aos Modelos Lineares e à Análise de Variância</span>"
+    ]
+  },
+  {
+    "objectID": "delinea.html",
+    "href": "delinea.html",
+    "title": "3  Fundamentos da Experimentação Florestal",
+    "section": "",
+    "text": "Conceitos Básicos de Experimentação\nDefinição e Objetivos\nTipos de Experimentos (Fatoriais, Blocos, etc.)\nDelineamentos Experimentais\nDelineamento Inteiramente Casualizado (DIC)\nDelineamento em Blocos Casualizados (DBC)\nDelineamento Fatorial\nUnidades Experimentais e Tratamentos\nDefinição de Unidade Experimental\nSeleção e Alocação de Tratamentos\n\n\n2 + 2\n\n[1] 4",
+    "crumbs": [
+      "Parte II: Delineamento Experimental",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos da Experimentação Florestal</span>"
+    ]
+  },
+  {
+    "objectID": "pre_pro.html",
+    "href": "pre_pro.html",
+    "title": "3  Preparação de Dados no R",
+    "section": "",
+    "text": "Importação de Dados\n\nLeitura de Arquivos CSV, Excel, etc.\n\nManipulação de Dados\n\nPacote dplyr\nLimpeza e Transformação de Dados",
+    "crumbs": [
+      "Parte III: Preparação e Análise de Dados",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Preparação de Dados no R</span>"
+    ]
+  },
+  {
+    "objectID": "analise.html",
+    "href": "analise.html",
+    "title": "4  Análise Estatística de Experimentos",
+    "section": "",
+    "text": "Estatística Descritiva\n\nResumo de Dados\nVisualização com Gráficos\n\nAnálise de Variância (ANOVA)\n\nAplicação no R\nInterpretação dos Resultados\n\nTestes de Comparação de Médias\n\nTeste de Tukey\nTeste de Dunnett\n\nModelos Lineares Generalizados\n\nIntrodução aos GLMs\nAplicação em Dados Florestais",
+    "crumbs": [
+      "Parte III: Preparação e Análise de Dados",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Análise Estatística de Experimentos</span>"
+    ]
+  },
+  {
+    "objectID": "casos.html",
+    "href": "casos.html",
+    "title": "5  Estudos de Caso Florestais",
+    "section": "",
+    "text": "Experimento de Crescimento de Árvores\n\nDescrição do Experimento\nAnálise e Interpretação com R\n\nAvaliação de Tratamentos Silviculturais\n\nDescrição do Experimento\nAnálise e Interpretação com R",
+    "crumbs": [
+      "Parte IV: Aplicações Florestais",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Estudos de Caso Florestais</span>"
+    ]
+  },
+  {
+    "objectID": "visual.html",
+    "href": "visual.html",
+    "title": "6  Visualização de Resultados",
+    "section": "",
+    "text": "Gráficos Básicos com ggplot2\n\nGráficos de Barras, Boxplots, Scatter Plots\n\nGráficos Avançados\n\nGráficos de Interação\nGráficos de Regressão",
+    "crumbs": [
+      "Parte V: Visualização e Boas Práticas",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Visualização de Resultados</span>"
+    ]
+  },
+  {
+    "objectID": "boas_praticas.html",
+    "href": "boas_praticas.html",
+    "title": "8  Boas Práticas na Experimentação Florestal",
+    "section": "",
+    "text": "Documentação e Reprodutibilidade\n\nOrganização do Código\nRelatórios Reprodutíveis com R Markdown\nConsiderações Éticas em Experimentação Florestal\nReferências e Recursos Adicionais",
+    "crumbs": [
+      "Parte V: Visualização e Boas Práticas",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Boas Práticas na Experimentação Florestal</span>"
+    ]
+  },
+  {
+    "objectID": "appendix.html",
+    "href": "appendix.html",
+    "title": "8  Apêndice",
+    "section": "",
+    "text": "Sintaxe e Comandos Básicos do R\nLinks para Pacotes e Documentações\nGlossário de Termos",
+    "crumbs": [
+      "Apêndice",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Apêndice</span>"
+    ]
+  },
+  {
+    "objectID": "recursos.html",
+    "href": "recursos.html",
+    "title": "9  Recursos Adicionais",
+    "section": "",
+    "text": "Código Fonte dos Exemplos\nLinks para Tutoriais e Cursos Online\nBibliografia Recomendada",
+    "crumbs": [
+      "Apêndice",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Recursos Adicionais</span>"
     ]
   }
 ]

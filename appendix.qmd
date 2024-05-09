@@ -1,0 +1,5 @@
+# Apêndice
+
+- Sintaxe e Comandos Básicos do R
+- Links para Pacotes e Documentações
+- Glossário de Termos

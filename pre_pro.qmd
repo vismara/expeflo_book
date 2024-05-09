@@ -1,0 +1,7 @@
+# Preparação de Dados no R
+
+- Importação de Dados
+     - Leitura de Arquivos CSV, Excel, etc.
+- Manipulação de Dados
+     - Pacote `dplyr`
+     - Limpeza e Transformação de Dados

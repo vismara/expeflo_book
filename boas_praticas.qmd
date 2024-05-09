@@ -1,0 +1,7 @@
+# Boas Práticas na Experimentação Florestal
+
+- Documentação e Reprodutibilidade
+  - Organização do Código
+  - Relatórios Reprodutíveis com `R Markdown`
+  - Considerações Éticas em Experimentação Florestal
+  - Referências e Recursos Adicionais
